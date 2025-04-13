@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Search App</title>
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
+</head>
+<body>
+    <header>
+        <h1>GitHub Search App</h1>
+        <nav>
+            <ul>
+                <li><a href="#search">Search Repositories</a></li>
+                <li><a href="#profile">User Profile</a></li>
+                <li><a href="#avatar">Create Avatar</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="search">
+            <h2>Search GitHub Repositories</h2>
+            <div id="search-component"></div>
+        </section>
+        <section id="profile">
+            <h2>User Profile</h2>
+            <div id="profile-component"></div>
+        </section>
+        <section id="avatar">
+            <h2>Create Your Avatar</h2>
+            <div id="avatar-component"></div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 GitHub Search App</p>
+    </footer>
+    <script src="{% static 'js/app.js' %}"></script>
+</body>
+</html>
